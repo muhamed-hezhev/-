@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design and Development</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFA500;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+            font-size: 2.5em;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .block {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .block-number {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #FFA500;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Design and Development</h1>
+        <div class="grid">
+            <div class="block">
+                <div class="block-number">1</div>
+                <p>User research and analysis to understand the target audience and their needs.</p>
+            </div>
+            <div class="block">
+                <div class="block-number">2</div>
+                <p>Creation of wireframes and prototypes to visualize the user interface and experience.</p>
+            </div>
+            <div class="block">
+                <div class="block-number">3</div>
+                <p>Visual design implementation, including color schemes, typography, and imagery.</p>
+            </div>
+            <div class="block">
+                <div class="block-number">4</div>
+                <p>Front-end development using HTML, CSS, and JavaScript to bring designs to life.</p>
+            </div>
+            <div class="block">
+                <div class="block-number">5</div>
+                <p>Back-end development to handle data processing, storage, and server-side logic.</p>
+            </div>
+            <div class="block">
+                <div class="block-number">6</div>
+                <p>Testing and quality assurance to ensure a bug-free and user-friendly final product.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+                
